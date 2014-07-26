@@ -1,6 +1,6 @@
 {
   "name": "youtube-validator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "checks validity of youtube urls and ids",
   "main": "index.js",
   "directories": {
