@@ -1,0 +1,33 @@
+{
+  "name": "youtube-validator",
+  "version": "0.1.0",
+  "description": "checks validity of youtube urls and ids",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "underscore": "~1.6.0"
+  },
+  "devDependencies":{
+    "tape": "~2.13.4"
+  },
+  "scripts": {
+    "test": "node test/tap_youtube-validator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpestana/youtube-validator"
+  },
+  "keywords": [
+    "youtube",
+    "url",
+    "validate"
+  ],
+  "author": "gpestana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpestana/youtube-validate/issues"
+  },
+  "homepage": "https://github.com/gpestana/youtube-validate"
+}
