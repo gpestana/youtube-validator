@@ -31,7 +31,6 @@ test('wrong urls', function(t) {
 })
 
 
-
 test('valid urls', function(t) {
 	var urlCorr1 = 'youtube.com/watch?v=2XH5_qafR8k'
 	var urlCorr2 = 'www.youtube.com/watch?v=2XH5_qafR8k'
@@ -57,10 +56,8 @@ test('valid urls', function(t) {
 		t.notEqual(res, null, 'urlCorr4 res should not be null')
 		t.equal(err, null, 'urlCorr4 err should be null')
 	})
-
 	t.end()
 })
-
 
 
 test('ID validate adapter', function(t) {
@@ -79,4 +76,3 @@ test('ID validate adapter', function(t) {
 
   t.end()
 })
-
